@@ -54,15 +54,14 @@ while running == True:
     elif option == 2:
         ENVELOPES = load_envelopes()
         FULL_ENVELOPES = load_fullenvelopes()
-        print(ENVELOPES)
-        print(FULL_ENVELOPES)
-        print("Envelopes loaded")
+
+        print("Envelopes loaded \n")
     elif option == 3:
         pick_envelope()
     elif option == 4:
         list_full()
     elif option == 5:
-        print(ENVELOPES)
+        print(f"{ENVELOPES}\n")
     elif option == 6:
         total_saved()
     elif option == 0:

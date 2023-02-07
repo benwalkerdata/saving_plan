@@ -43,8 +43,8 @@ def total_saved():
 
 running = True
 while running == True:
-    print("Hi welcome to the Enverlope saving app.")
-    option = int(input("What would you like to do? (type 1-6) or type exit to quit. \n 1) Create new envelopes \n 2) Load previous envelopes \n 3) Pick this weeks envelope \n 4) List full envelopes\n 5) List empty envelopes \n 6) Display total saved \n"))
+    print("Hi welcome to the Enverlope saving app. \n\n")
+    option = int(input("What would you like to do? (type 1-6) or type exit to quit. \n\n 1) Create new envelopes \n 2) Load previous envelopes \n 3) Pick this weeks envelope \n 4) List full envelopes\n 5) List empty envelopes \n 6) Display total saved \n"))
     if option == 1:
         new_envelopes()
     elif option == 2:
